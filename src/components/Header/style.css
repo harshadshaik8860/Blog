@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    background: #FFD873;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+   
+    
+ 
+}
+
+.navbarMenu li{
+    list-style: none;
+    display: inline-block;
+    margin: 17px 0;
+    
+}
+
+.navbarMenu li a{
+    padding:10px;
+    font-size: 15px;
+    color:#070707;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 3px;
+    text-decoration: none;
+    
+}
+
+.navbarMenu li a:after{
+    content: "|";
+padding-left: 10px;
+color: #565656;
+
+}
+
+
+.social li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+.social li a{
+    padding:10px;
+    font-size: 17px;
+    color:#070707;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    
+}
+
+.search form{
+    margin:10px 0;   
+}
+
+.searchInput{
+    background: #FFD873;
+    border:0;
+    width:0;
+    transition: 0.1s ease-in;
+}
+
+.searchInput:focus{
+    outline:none;
+}
+
+.searchIcon{
+    cursor: pointer;
+}
+
+.searchInput.active{
+    width:150px;
+}
+
+
